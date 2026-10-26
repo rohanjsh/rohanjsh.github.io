@@ -1,0 +1,9 @@
+/* Pencilly: warm paper and ember, layered over the shared style.css */
+:root{--bg:#f6f1e9;--fg:#1f1b16;--muted:#6f675c;--line:#e3dccf;--link:#b34e16}
+@media (prefers-color-scheme:dark){:root{--bg:#14110d;--fg:#f3eee6;--muted:#a79e91;--line:#2c2721;--link:#ffa565}}
+h1,h2{font-family:"New York",ui-serif,Georgia,"Times New Roman",serif;font-weight:600}
+.lead{font-size:1.2rem;line-height:1.5}
+.slot{display:grid;gap:8px;max-width:150px;margin:8px 0 28px}
+.slot i{display:block;height:28px;border-radius:9px;background:var(--line)}
+.slot i.on{background:#ff9e59;transform:rotate(-2deg);box-shadow:0 6px 18px rgba(255,158,89,.35)}
+ul.tight li{margin:.35em 0}
