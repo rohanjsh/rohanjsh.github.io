@@ -13,7 +13,6 @@
 - Privacy: no account, no servers, no analytics, no ads, no tracking, no third-party SDKs. Calendar, tasks, voice and images never leave the iPhone.
 - Language: English only for now.
 - Price (US): free for the first 10 plans you add to your calendar. Then Pencilly Pro: $34.99 per year with a 7-day free trial, or $4.99 per month. Billed through the App Store.
-- Developer: rohanjsh, an independent developer.
 - App Store: https://apps.apple.com/au/app/pencilly-day-planner/id6827095563
 
 ## Pages
