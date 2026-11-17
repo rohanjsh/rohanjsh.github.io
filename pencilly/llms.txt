@@ -16,4 +16,5 @@
 - [Home](https://pencilly.rohanjsh.dev/): what Pencilly is, facts, FAQ
 - [How to plan your week from a messy to-do list](https://pencilly.rohanjsh.dev/plan-week-from-todo-list): a practical method, and how Pencilly applies it
 - [Privacy policy](https://pencilly.rohanjsh.dev/privacy): exactly what the app does with your information
+- [Terms of use](https://pencilly.rohanjsh.dev/terms): Apple standard EULA plus how free plans, the trial and Pro subscriptions work
 - [Support](https://pencilly.rohanjsh.dev/support): requirements, undo, subscriptions and common questions

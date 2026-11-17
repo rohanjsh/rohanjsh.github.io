@@ -3,7 +3,8 @@
 <title>Pencilly: private iPhone planner that fits tasks around your calendar</title>
 <meta name="description" content="Pencilly turns a typed, pasted, scanned or spoken to-do list into a plan that fits around your real calendars. No account, no servers. Everything stays on your iPhone.">
 <link rel="canonical" href="https://pencilly.rohanjsh.dev/">
-<meta name="theme-color" content="#f6f1e9">
+<meta name="theme-color" content="#f6f1e9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14110d" media="(prefers-color-scheme: dark)">
 <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta property="og:type" content="website">
@@ -18,7 +19,7 @@
 <meta name="twitter:title" content="Pencilly: plan your week around your real calendar, privately">
 <meta name="twitter:description" content="No account. No servers. Everything is worked out on your iPhone.">
 <meta name="twitter:image" content="https://pencilly.rohanjsh.dev/og.png">
-<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="pencilly.css">
+<link rel="stylesheet" href="site.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -102,29 +103,99 @@
 }
 </script>
 </head>
-<body><nav><a href="./">Pencilly</a><a href="plan-week-from-todo-list">Guide</a><a href="privacy">Privacy</a><a href="support">Support</a></nav>
-<main>
-<div class="slot" aria-hidden="true"><i></i><i class="on"></i><i></i></div>
-<h1>Pencilly: plan your week around your real calendar</h1>
-<p class="lead">Tell it what's on your plate. Pencilly finds the gaps in your calendars and puts each task where it fits. It is a private iPhone planner: no account, no servers, and everything is worked out on your phone.</p>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="./"><img src="apple-touch-icon.png" width="32" height="32" alt="">Pencilly</a>
+<nav aria-label="Main"><a href="plan-week-from-todo-list">Guide</a><a href="privacy">Privacy</a><a href="support">Support</a></nav>
+</div></header>
 
-<div class="shots">
-<figure><img src="img/capture.webp" width="560" height="1218" alt="Pencilly's capture screen with a typed to-do list: gift, groceries, documents, invites, dentist, gym, homework." decoding="async"><figcaption>1. Type, paste, scan or say it</figcaption></figure>
-<figure><img src="img/plan.webp" width="560" height="1218" alt="The plan Pencilly built: each task has a time and a one-line reason, such as 'You said it's urgent, so it takes the first free gap.'" decoding="async"><figcaption>2. Review the plan</figcaption></figure>
-<figure><img src="img/calendar.webp" width="560" height="1218" alt="The day view: planned tasks sit in free gaps around an existing 'Project review' meeting." decoding="async"><figcaption>3. Fits around your day</figcaption></figure>
+<main id="main">
+
+<section class="hero"><div class="wrap">
+<div>
+<p class="eyebrow">Pencilly · a private planner for iPhone</p>
+<h1 class="display">Plan your week around your real calendar.</h1>
+<p class="lede">Type, paste, scan or say what's on your plate. Pencilly finds the gaps in your calendars and puts each task where it fits. Everything is worked out on your phone.</p>
+<div class="cta-row">
+<!-- Swap this tag for the App Store badge link when the app is live. -->
+<p class="tag">Coming soon to the App Store</p>
+<p class="trust">No account. No servers. Nothing leaves your iPhone.</p>
 </div>
+</div>
+<div class="device"><img src="img/plan.webp" width="560" height="1218" alt="Pencilly's weekly plan: Check documents at 4:00 PM, Buy a gift at 4:25 PM, Send out the invites at 5:30 PM and Gym at 6:00 PM, each with a one-line reason." fetchpriority="high"></div>
+</div></section>
 
-<h2>What Pencilly does</h2>
-<ul class="tight">
-<li><strong>Type, paste, scan or say it.</strong> Messy is fine: a chat message, a list, a photo or screenshot of a list, or your voice. Scanning and voice both run on the device.</li>
-<li><strong>Plans around your life.</strong> It reads every calendar on your phone, keeps lunch and dinner free, respects your work hours, and never double-books you.</li>
-<li><strong>Understands how you say it.</strong> "At 3pm" is a fixed time, "by 3pm" is a deadline, "urgent" jumps the queue, and "after work" or "before lunch" are honoured.</li>
-<li><strong>You stay in charge.</strong> Review the plan, tweak any task, and nothing is saved until you tap Add to calendar. One tap undoes it.</li>
-<li><strong>Right where you look.</strong> Live Activities and the Dynamic Island show the task you're on, with Done and +15 min. A gentle alert marks the start of each task.</li>
-<li><strong>Private by design.</strong> No account, no servers, no tracking. Pencilly uses the AI built into your iPhone, where available.</li>
-</ul>
+<section class="section" id="how"><div class="wrap">
+<h2 class="title">From a messy list to a plan, in three steps</h2>
+<p class="sub">No templates and no setup. Write the way you'd text a friend.</p>
+<ol class="steps">
+<li class="step">
+<div class="device"><img src="img/capture.webp" width="560" height="1218" alt="Pencilly's capture screen with a typed to-do list: gift, groceries, documents, invites, dentist, gym, homework." loading="lazy" decoding="async"></div>
+<div><span class="num" aria-hidden="true">1</span><h3>Say it however it comes</h3><p>Type it, paste a chat, scan a page or speak. Scanning and voice both run on your iPhone.</p></div>
+</li>
+<li class="step">
+<div class="device"><img src="img/plan.webp" width="560" height="1218" alt="The plan Pencilly built, with a reason under every task." loading="lazy" decoding="async"></div>
+<div><span class="num" aria-hidden="true">2</span><h3>Review the plan</h3><p>Every task gets a time and a one-line reason. Tap any card to adjust it. Nothing is saved until you say so.</p></div>
+</li>
+<li class="step">
+<div class="device"><img src="img/calendar.webp" width="560" height="1218" alt="The day view: planned tasks sit in free gaps around an existing Project review meeting." loading="lazy" decoding="async"></div>
+<div><span class="num" aria-hidden="true">3</span><h3>It fits around your day</h3><p>Tap Add to calendar. Tasks land in free gaps, never on top of a meeting. One tap undoes it.</p></div>
+</li>
+</ol>
+</div></section>
 
-<h2>Pencilly at a glance</h2>
+<section class="section alt"><div class="wrap">
+<h2 class="title">It reads how you actually write</h2>
+<p class="sub">Pencilly tells apart "at 3pm" from "by 3pm", and it explains each choice.</p>
+<div>
+<div class="say"><q>Gym at 6pm</q><span>You asked for 6:00 PM.</span></div>
+<div class="say"><q>Call the dentist tomorrow morning</q><span>Due Thu 12:00 PM, so it goes in the first gap that fits.</span></div>
+<div class="say"><q>Check documents, urgently today</q><span>You said it's urgent, so it takes the first free gap.</span></div>
+</div>
+</div></section>
+
+<section class="section"><div class="wrap">
+<h2 class="title">Built to respect your day</h2>
+<p class="sub">A plan you can trust is one that never surprises you.</p>
+<div class="grid">
+<div class="card"><h3>Never double-books</h3><p>Pencilly reads every calendar on your phone, ignores events you declined, and checks again when you tap Add.</p></div>
+<div class="card"><h3>Keeps meals and work hours clear</h3><p>Lunch and dinner stay free. Work hours are avoided for every task unless nothing else fits.</p></div>
+<div class="card"><h3>Shows up where you look</h3><p>Live Activities and the Dynamic Island show the task you're on, with Done and +15 min.</p></div>
+<div class="card"><h3>You stay in charge</h3><p>Nothing reaches your calendar until you tap Add to calendar, and a stated time is always honoured.</p></div>
+</div>
+</div></section>
+
+<section class="band" id="privacy"><div class="wrap">
+<h2 class="title">Your calendar never leaves your phone.</h2>
+<p>Pencilly has no account and no servers of its own. Reading, planning, scanning and voice all happen on your iPhone, and the developer collects nothing.</p>
+<ul class="nos"><li>No account</li><li>No servers</li><li>No analytics</li><li>No ads</li></ul>
+<p><a href="privacy">Read the privacy policy</a></p>
+</div></section>
+
+<section class="section"><div class="wrap">
+<h2 class="title">Free to start</h2>
+<p class="sub">Try it on real weeks before you decide.</p>
+<div class="grid plan-grid">
+<div class="card plan"><h3>Free</h3><p class="price">10 plans</p><p>Your first 10 plans added to your calendar cost nothing.</p></div>
+<div class="card plan plan--pro"><span class="badge">Pencilly Pro</span><p class="price">$34.99 <small>a year</small></p><p>7-day free trial. Or $4.99 a month. Cancel anytime in your Apple ID settings.</p></div>
+</div>
+<p class="fine">US prices, billed by Apple. See the <a href="terms">terms</a>.</p>
+</div></section>
+
+<section class="section alt" id="faq"><div class="wrap">
+<h2 class="title">Questions</h2>
+<p class="sub">Short answers. More on the <a href="support">support page</a>.</p>
+<details><summary>Is Pencilly free?</summary><p>The first 10 plans you add to your calendar are free. After that, Pencilly Pro is $34.99 a year with a 7-day free trial, or $4.99 a month (US prices). Manage or cancel in your Apple ID subscriptions.</p></details>
+<details><summary>Does Pencilly need an account or send my calendar anywhere?</summary><p>No. There are no accounts and no servers. Your calendar, tasks, voice and images stay on your iPhone, and the developer collects no data. Read the <a href="privacy">privacy policy</a>.</p></details>
+<details><summary>Which iPhones does it work on?</summary><p>Any iPhone running iOS 18 or later. On an iPhone with Apple Intelligence (iOS 26 or later) Pencilly also uses Apple's on-device model to understand messy text; everywhere else, built-in rules do the work.</p></details>
+<details><summary>Will it double-book me?</summary><p>No. It never overlaps an existing event, keeps lunch and dinner free, respects your work hours and leaves a gap around events. If your calendar changes while you review a plan, Pencilly checks again when you tap Add and moves anything that now clashes.</p></details>
+<details><summary>How do I undo a plan?</summary><p>Tap Undo right after adding it, or delete the events from the "Pencilly" calendar in your Calendar app. Nothing is written until you tap Add to calendar.</p></details>
+<details><summary>What languages does it understand?</summary><p>English only for now.</p></details>
+</div></section>
+
+<section class="section"><div class="wrap">
+<h2 class="title">Pencilly at a glance</h2>
 <dl class="facts">
 <dt>What it is</dt><dd>A day and week planner for iPhone that schedules your to-do list into free time in your calendars.</dd>
 <dt>Works on</dt><dd>iPhone, iOS 18 or later. Apple Intelligence (iOS 26 or later) is optional.</dd>
@@ -133,22 +204,13 @@
 <dt>Language</dt><dd>English</dd>
 <dt>Developer</dt><dd>rohanjsh, an independent developer</dd>
 </dl>
+<p class="fine">New to time blocking? Read <a href="plan-week-from-todo-list">how to plan your week from a messy to-do list</a>.</p>
+</div></section>
 
-<h2>Questions</h2>
-<h3>Is Pencilly free?</h3>
-<p>The first 10 plans you add to your calendar are free. After that, Pencilly Pro is $34.99 a year with a 7-day free trial, or $4.99 a month (US prices). Manage or cancel in your Apple ID subscriptions.</p>
-<h3>Does Pencilly need an account or send my calendar anywhere?</h3>
-<p>No. There are no accounts and no servers. Your calendar, tasks, voice and images stay on your iPhone, and the developer collects no data. Read the <a href="privacy">privacy policy</a>.</p>
-<h3>Which iPhones does it work on?</h3>
-<p>Any iPhone running iOS 18 or later. On an iPhone with Apple Intelligence (iOS 26 or later) Pencilly also uses Apple's on-device model to understand messy text; everywhere else, built-in rules do the work.</p>
-<h3>Will it double-book me?</h3>
-<p>No. It never overlaps an existing event, keeps lunch and dinner free, respects your work hours and leaves a gap around events. If your calendar changes while you review a plan, Pencilly checks again when you tap Add and moves anything that now clashes.</p>
-<h3>How do I undo a plan?</h3>
-<p>Tap Undo right after adding it, or delete the events from the "Pencilly" calendar in your Calendar app. Nothing is written until you tap Add to calendar.</p>
-<h3>What languages does it understand?</h3>
-<p>English only for now.</p>
+</main>
 
-<p>New to time blocking? Read <a href="plan-week-from-todo-list">how to plan your week from a messy to-do list</a>.</p>
-
-<p class="muted"><a href="privacy">Privacy Policy</a> · <a href="support">Support</a></p>
-</main></body></html>
+<footer class="foot"><div class="wrap">
+<div><a class="brand" href="./"><img src="apple-touch-icon.png" width="32" height="32" alt="">Pencilly</a><p>A private planner for iPhone, by rohanjsh. © 2026</p></div>
+<nav aria-label="Footer"><a href="plan-week-from-todo-list">Guide</a><a href="privacy">Privacy</a><a href="terms">Terms</a><a href="support">Support</a></nav>
+</div></footer>
+</body></html>
