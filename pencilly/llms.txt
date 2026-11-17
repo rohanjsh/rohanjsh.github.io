@@ -5,6 +5,9 @@
 ## Facts
 - Platform: iPhone only. Requires iOS 18 or later.
 - What it does: reads tasks from text, a pasted list, a scanned page (on-device OCR) or voice (on-device recognition), then places each one in a free gap in your calendars. It never overlaps an existing event, keeps lunch and dinner free, respects work hours and leaves buffers.
+- Ways to add tasks: type, paste, scan a page (on-device OCR), voice (on-device), the iOS share sheet, Siri ("Add tasks to Pencilly" plans and saves without opening the app), Shortcuts, Back Tap and the Action Button (set up once in Shortcuts). "What's next in Pencilly" tells you your next task.
+- Always in view: Live Activities on the Lock Screen and in the Dynamic Island show the current task with a countdown, Done and +15 min (which re-plans the rest of the day). A "Starting now" alert marks each task's start.
+- Privacy extras: optional Face ID lock; scanning and voice run on the device.
 - You stay in control: nothing is written to your calendar until you tap Add to calendar. One tap undoes it.
 - Understanding tasks: uses Apple's on-device model on iPhones with Apple Intelligence (iOS 26 or later); everywhere else a built-in rules parser does the work. Placement is always decided by Pencilly's own scheduler, not by a language model.
 - Privacy: no account, no servers, no analytics, no ads, no tracking, no third-party SDKs. Calendar, tasks, voice and images never leave the iPhone.
