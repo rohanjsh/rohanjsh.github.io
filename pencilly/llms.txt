@@ -1,0 +1,19 @@
+# Pencilly
+
+> Pencilly is an iPhone app that turns a typed, pasted, scanned or spoken to-do list into a plan that fits around your real calendars. It has no account and no servers: planning happens on the phone, and the developer collects no data.
+
+## Facts
+- Platform: iPhone only. Requires iOS 18 or later.
+- What it does: reads tasks from text, a pasted list, a scanned page (on-device OCR) or voice (on-device recognition), then places each one in a free gap in your calendars. It never overlaps an existing event, keeps lunch and dinner free, respects work hours and leaves buffers.
+- You stay in control: nothing is written to your calendar until you tap Add to calendar. One tap undoes it.
+- Understanding tasks: uses Apple's on-device model on iPhones with Apple Intelligence (iOS 26 or later); everywhere else a built-in rules parser does the work. Placement is always decided by Pencilly's own scheduler, not by a language model.
+- Privacy: no account, no servers, no analytics, no ads, no tracking, no third-party SDKs. Calendar, tasks, voice and images never leave the iPhone.
+- Language: English only for now.
+- Price (US): free for the first 10 plans you add to your calendar. Then Pencilly Pro: $34.99 per year with a 7-day free trial, or $4.99 per month. Billed through the App Store.
+- Developer: rohanjsh, an independent developer.
+
+## Pages
+- [Home](https://pencilly.rohanjsh.dev/): what Pencilly is, facts, FAQ
+- [How to plan your week from a messy to-do list](https://pencilly.rohanjsh.dev/plan-week-from-todo-list): a practical method, and how Pencilly applies it
+- [Privacy policy](https://pencilly.rohanjsh.dev/privacy): exactly what the app does with your information
+- [Support](https://pencilly.rohanjsh.dev/support): requirements, undo, subscriptions and common questions
