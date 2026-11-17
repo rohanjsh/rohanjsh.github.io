@@ -50,8 +50,6 @@ h1,h2,h3{font-family:var(--serif);font-weight:600;text-wrap:balance}
 .hero .wrap{display:grid;gap:44px;align-items:center}
 @media(min-width:880px){.hero{padding:88px 0 104px}.hero .wrap{grid-template-columns:1.15fr .85fr;gap:72px}}
 .cta-row{display:flex;flex-wrap:wrap;gap:14px 20px;align-items:center}
-.tag{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border:1.5px solid var(--ink);border-radius:999px;font-weight:600;margin:0}
-.tag::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--ember)}
 .trust{color:var(--muted);font-size:.95rem;margin:0}
 .device{background:var(--frame);border-radius:44px;padding:9px;max-width:300px;margin:0 auto;box-shadow:0 30px 60px -30px var(--shade)}
 .device img{display:block;width:100%;height:auto;border-radius:36px}
@@ -120,3 +118,8 @@ dl.facts dt{font-weight:600}dl.facts dd{margin:0;color:var(--muted)}
 .one .device{margin:0;max-width:240px}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+/* App Store badge (Apple artwork, unaltered) */
+.store{display:inline-block;line-height:0;border-radius:10px}
+.store img{display:block;height:48px;width:auto}
+.get{margin:28px 0 0}
